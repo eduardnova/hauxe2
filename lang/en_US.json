@@ -1,0 +1,20 @@
+{
+  "home": {
+    "title": "Home",
+    "btn": "Click Here"
+  },
+  "common": {
+    "add": "add",
+    "cancel": "Cancel",
+    "close": "Close"
+  },
+  "dialog": {
+    "title": "Change Language:",
+    "btn_negative": "Cancel"
+  },
+  "config": {
+    "iso_code": "US",
+    "prefix": "en_US",
+    "title": "English"
+  }
+}

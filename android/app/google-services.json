@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "778595475904",
+    "project_id": "hauxe-7eaf3",
+    "storage_bucket": "hauxe-7eaf3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778595475904:android:b3ce98a7df08d474a32825",
+        "android_client_info": {
+          "package_name": "com.uryx.hauxe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778595475904-fe14kf0hmqov0lcnlqh8hia325tpcirp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-cyTaPBwXqUOcbM-EfkmLPpA2KdoYqmA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "778595475904-fe14kf0hmqov0lcnlqh8hia325tpcirp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

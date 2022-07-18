@@ -1,0 +1,20 @@
+{
+  "home": {
+    "title": "Home",
+    "btn": "Clique Aqui"
+  },
+  "common": {
+    "add": "Agregar",
+    "cancel": "Cancelar",
+    "close": "Cerrar"
+  },
+  "dialog": {
+    "title": "Cambiar Lenguaje:",
+    "btn_negative": "Cancelar"
+  },
+  "config": {
+    "iso_code": "BR",
+    "prefix": "pt_BR",
+    "title": "Espnol"
+  }
+}

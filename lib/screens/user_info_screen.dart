@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:hauxe/theme/custom_colors.dart';
-import 'package:hauxe/screens/sign_in_screen.dart';
+import 'package:hauxe/screens/auth_screen/sign_in_screen.dart';
 import 'package:hauxe/utils/authentication.dart';
 import 'package:hauxe/widgets/app_bar_title.dart';
 

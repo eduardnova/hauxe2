@@ -1,4 +1,4 @@
-import 'package:cupertino_chat_app/components/logo.dart';
+//import 'package:cupertino_chat_app/components/logo.dart';
 import 'package:hauxe/screens/auth_screen/select_country.dart';
 import 'package:hauxe/screens/auth_screen/verify_number.dart';
 import 'package:cupertino_list_tile/cupertino_list_tile.dart';
@@ -16,7 +16,7 @@ class _EditNumberState extends State<EditNumber> {
   var _enterPhoneNumber = TextEditingController();
   Map<String, dynamic> data = {
     "name": "Portugal",
-    "code": "+351"
+    "code": "+1"
   };
   Map<String, dynamic>? dataResult;
 
@@ -38,7 +38,7 @@ class _EditNumberState extends State<EditNumber> {
         children: [
           Row(
             children: [
-              Logo(width: 80.0, height: 80.0, radius: 30.0),
+              //Logo(width: 80.0, height: 80.0, radius: 30.0),
               Text("Verification • one step", style: TextStyle(color: Color(0xFF08C187).withOpacity(0.7), fontSize: 30))
             ],
           ),

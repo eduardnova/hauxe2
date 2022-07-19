@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animate_do/animate_do.dart';
 import 'package:hauxe/screens/auth_screen/sign_in_screen.dart';
+import 'package:hauxe/screens/auth_screen/edit_number.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:hauxe/screens/user_info_screen.dart';
 import 'package:hauxe/utils/authentication.dart';
@@ -298,7 +299,7 @@ class PButton extends StatelessWidget {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: ((context) => const SignInScreen()),
+            builder: ((context) => const EditNumber()),
           ),
         );
       },

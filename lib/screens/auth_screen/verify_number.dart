@@ -1,7 +1,9 @@
-import 'package:hauxe/screen/auth_screen/user_name.dart';
+//import 'package:hauxe/screens/auth_screen/user_name.dart';
+import 'package:hauxe/screens/user_info_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:hauxe/screens/home.dart';
 
 enum Status { Waiting, Error }
 
@@ -46,7 +48,7 @@ class _VerifyNumberState extends State<VerifyNumber> {
       await _auth
           .signInWithCredential(credential)
           .then((value) {
-            Navigator.push(context, CupertinoPageRoute(builder: (context) => UserName()));
+            Navigator.push(context, CupertinoPageRoute(builder: (context) => HomePage()));
           })
           .whenComplete(() {})
           .onError((error, stackTrace) {
